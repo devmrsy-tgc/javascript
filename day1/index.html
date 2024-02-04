@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<button>Click</button>
 
-    <button onclick="this.innerHTML = Date()">Click to get date</button>
-</body>
+		<script>
+			document.getElementsByTagName('button')[0].addEventListener('click', function () {
+				console.log('es5', this);
+				this.innerHTML = 'updated on mouse click';
+			});
+
+			document.getElementsByTagName('button')[0].addEventListener('mouseover', (e) => {
+				console.log('###', e.srcElement);
+				e.srcElement.innerHTML = 'updated through event';
+			});
+
+			document.getElementsByTagName('button')[0].addEventListener('mouseleave', (e) => {
+				e.srcElement.innerHTML = 'updated through event on mouseleave';
+			});
+		</script>
+	</body>
 </html>
-
 
 <!-- documenet.getElementById('here_id_of_same_ele').innerHTML  == this.innerHTML -->
