@@ -1,0 +1,27 @@
+# git setup
+
+install git using below link:
+    https://git-scm.com/downloads
+
+sign up on git hub 
+    https://github.com/
+
+create your first repo
+    -click on new button
+    -just enter the Repository name
+    -click on creat Repository button (in button)
+
+Lets clone it in local
+    -copy repo link using url section (https://github.com/devmrsy-tgc/javascript this is for this class)
+    -choose your location to clone the repo. Suppose in my case it is desktop (C:\Users\devMrSY>)
+    # hit this command git clone repo_url -> git clone https://github.com/devmrsy-tgc/javascript
+
+how to push the code or basically you can say how to update your repo branch.
+
+    - you should be in same folder like. my repo is javascript so that my local location is C:\Users\devMrSY\Desktop\tgc_classes>cd javascript.
+
+    #after your changes those you want to push on your repo branch you have to follow such comand .. given belwo:
+
+    git add .
+    git commit -m "commit_message"
+        note: commit message could be change as per changes you have.
