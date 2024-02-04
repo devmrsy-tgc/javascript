@@ -6,6 +6,16 @@ install git using below link:
 sign up on git hub 
     https://github.com/
 
+let configure your git cred. in your system using below commands
+    -git config --global user.name = "your_name"
+    -git config --global user.email = "the email id you have used to sign up for account"
+
+let's verify our cred.
+    -git config user.name 
+        output -> your_name
+    -git config user.email 
+        output -> the email id you have used to sign up for account
+
 create your first repo
     -click on new button
     -just enter the Repository name
