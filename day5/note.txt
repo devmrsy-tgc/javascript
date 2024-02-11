@@ -1,0 +1,7 @@
+error has some type
+
+semantic error.
+
+compilation error
+
+runtime error

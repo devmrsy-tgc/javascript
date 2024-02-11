@@ -1,0 +1,26 @@
+Certainly! Here's an assignment for an intermediate level. The assignment involves creating a student admission system with additional functionality:
+
+Assignment: Student Admission System
+
+1. **Extend the Student Information:**
+   - Modify the function to accept additional information about the student, such as age, contact number, and address.
+   - Print out the complete student information when admission is possible.
+
+2. **Multiple Courses:**
+   - Modify the function to handle multiple courses. Introduce a list of available courses, and the function should check if the given course is available.
+   - Print a list of available courses if the admission is not possible for the specified course.
+
+3. **Discounts and Special Offers:**
+   - Introduce a mechanism for discounts based on certain conditions. For example, if a student pays the full admission amount upfront, offer a discount.
+   - Print out any applicable discounts or special offers.
+
+4. **Payment Confirmation:**
+   - After determining the admission or registration is possible, ask the user for confirmation before proceeding with the payment.
+   - Print a confirmation message after the payment is made.
+
+5. **Error Handling:**
+   - Implement proper error handling. Check for invalid inputs and provide meaningful error messages.
+   - Ensure that the function gracefully handles unexpected scenarios.
+
+6. **Record Keeping:**
+   - Keep a record of all admissions and registrations, including the student's information, course, payment details, and admission status.
