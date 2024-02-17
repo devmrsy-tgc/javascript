@@ -1,0 +1,4 @@
+1) what is difference between var, let and const.
+2) hoisting
+3) what is difference between es5 and es6.
+4) pre increment and post increment, (--, ++)
