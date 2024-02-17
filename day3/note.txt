@@ -1,0 +1,22 @@
+variable
+
+es5 - var
+es6 - let || const
+
+in js + operator also behave as concatenation
+
+assignment  kroge ? yes || No (computer [0,1]);
+    Boolean type 
+        true -> 1 || something positive like 10, 11
+        false -> 0
+
+comparison operator 
+    == (applicable for potential only)
+    === (potential as well as type of data)
+
+increment operator (++)
+    pre-increment
+    post-increment
+decrement operator (--)
+    pre-decrement
+    post-decrement
