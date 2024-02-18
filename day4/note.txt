@@ -1,0 +1,46 @@
+Data type:
+   primitive
+   non-primitive
+
+   string
+   number
+   boolean
+   bigint
+   Symbol
+   
+   array
+   object
+   date
+
+   undefined
+   null
+
+
+let understand the difference.
+
+    string: 'data', "data"
+    number: 1 || 2 || 0 || 7 || adsadf
+
+- Assignment_4 -> ha ya na (js-> boolean type [true, false]) 
+    let condition = true;
+
+- undefined , null
+
+what is null; 
+
+    null is intensionally undefined
+
+
+function;
+
+    task banking software
+        credit
+        debit
+        userInfo
+
+function credit(param1, param2) {
+
+}
+
+
+credit(Assignment_4, ref_link) // argument1, argument2
