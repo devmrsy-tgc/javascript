@@ -2,4 +2,10 @@
 2) hoisting
 3) what is difference between es5 and es6.
     3.1) function
+        es5 -> function fun_name() { }
+        es6 -> let fun_name = () => {} // anonymous, callback, fat_arrow, function as variable
+    3.2) this
+        es5 -> point to self
+        es6 -> point to window
+
 4) pre increment and post increment, (--, ++)
