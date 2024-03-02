@@ -57,12 +57,12 @@
 
 // console.log(obj);
 
-const obj = ['r', 'e', 'z', 'E'];
+// const obj = ['r', 'e', 'z', 'E'];
 
-let length = obj.length;
+// let length = obj.length;
 
-obj[length] = 'new key'
+// obj[length] = 'new key'
 
-console.log(obj,length)
+// console.log(obj,length)
 
 
