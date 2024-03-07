@@ -47,7 +47,7 @@
 
 const employeesData = [
 	{
-		id: 12,
+		id: 112,
 		name: 'himanshi',
 		age: 25,
 		city: 'New York',
@@ -68,6 +68,13 @@ const employeesData = [
 		occupation: 'Teacher',
 	},
 	{
+		id: 12,
+		name: 'himanshi',
+		age: 19,
+		city: 'New York',
+		occupation: 'Engineer',
+	},
+	{
 		id: 15,
 		name: 'Michael',
 		age: 35,
@@ -82,12 +89,11 @@ const employeesData = [
 		occupation: 'Artist',
 	},
 ];
-let result = {};
+let result = [];
 
 for (let index = 0; index < employeesData.length; index++) {
-	if (employeesData[index].id == 14) {
-		result = employeesData[index];
-        break;
+	if (employeesData[index].name == "himanshi") {
+		result =[...result, employeesData[index]];
 	}
 
 	// console.table([employeesData[index]]);
@@ -95,4 +101,5 @@ for (let index = 0; index < employeesData.length; index++) {
 }
 
 console.log("------------result----------");
+console.table(result);
 console.table(employeesData);
