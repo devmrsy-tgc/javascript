@@ -1,0 +1,159 @@
+[
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Engineer",
+    "technology": true
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj@example.com",
+    "department": "Software Development",
+    "joining_date": "2022-05-15"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Manager",
+    "technology": false
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.m@example.com",
+    "department": "Human Resources",
+    "joining_date": "2021-10-20"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Marketing Executive",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.marketing@example.com",
+    "department": "Marketing",
+    "joining_date": "2023-02-08"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Accountant",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.acc@example.com",
+    "department": "Finance",
+    "joining_date": "2020-07-10"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Graphic Designer",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.design@example.com",
+    "department": "Creative",
+    "joining_date": "2024-01-30"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Customer Service Representative",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.customer@example.com",
+    "department": "Customer Support",
+    "joining_date": "2022-08-14"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Data Analyst",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.data@example.com",
+    "department": "Analytics",
+    "joining_date": "2023-11-05"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Project Manager",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.pm@example.com",
+    "department": "Project Management",
+    "joining_date": "2021-03-22"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Sales Representative",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.sales@example.com",
+    "department": "Sales",
+    "joining_date": "2020-12-18"
+  },
+  {
+    "name": "sooraj",
+    "age": 28,
+    "designation": "Quality Assurance Analyst",
+    "address": {
+      "hNO": 1444,
+      "gNO": 12,
+      "pincode": 110060
+    },
+    "salary": 1200,
+    "email": "sooraj.qa@example.com",
+    "department": "Quality Assurance",
+    "joining_date": "2022-02-28"
+  }
+]
+
+
+
+Certainly! Here are 10 questions to help improve your understanding and skills in using find and filter logic with the given array of objects:
+
+1. **Find the employee(s) who joined after January 1, 2023.
+2. **Find all employees who work in departments related to technology (e.g., Software Development, Data Analyst, etc.).
+3. **Find the employee(s) who have been working for the company for more than 2 years.
+4. **Find the employee(s) who work in the Sales department and joined before January 1, 2022.
+5. **Find the employee(s) who have the highest salary.
+6. **Find all employees who live in the same address (hNO: 1444, gNO: 12, pincode: 110060).
+7. **Find the employee(s) who work as Project Managers 
+8. **Find the employee(s) who work in departments with names containing "Marketing".
+9. **Find the employee(s) who work as Quality Assurance Analysts and have a salary greater than 1300.
+10. **Find the employee(s) who have not been assigned to any department yet.
